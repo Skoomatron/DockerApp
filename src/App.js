@@ -1,14 +1,14 @@
 import React from "react";
 import Container from './Components/Container.jsx';
 
-class App extends React.Component {
-  render() {
+const App = () => {
+
     return (
       <div>
         <Container/>
       </div>
     );
-  }
+
 }
 
 export default App;
